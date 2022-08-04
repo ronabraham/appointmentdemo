@@ -10,6 +10,7 @@ Note - Duration of appointment requested in the assignment can be achieved by ca
 HOW TO INSTALL / EXECUTE
 ________________________
 Note - Please ensure you have Java 8 JRE / SKD ($java -version) and maven installed.
+JAVA_HOME is the environment variable that must be set to run maven commands .
 Clone the Source Url and "cd" to appointmentdemo folder
 Based on dependencies added in pom.xml (jpa , h2, spring web) please execute a 
 $maven update from the terminal
