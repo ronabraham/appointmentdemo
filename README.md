@@ -13,7 +13,7 @@ Note - Please ensure you have Java 8 JRE / SKD ($java -version) and maven instal
 JAVA_HOME is the environment variable that must be set to run maven commands .
 Clone the Source Url and "cd" to appointmentdemo folder
 Based on dependencies added in pom.xml (jpa , h2, spring web) please execute a 
-$maven update from the terminal
+mvn clean install -U from the terminal
 $mvn spring-boot:run (or open the source in Spring / Eclipse and run the maven command from the menu
 
 The message appears in the terminal which should tell you the port number and wether the app has started.
