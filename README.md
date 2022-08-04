@@ -6,12 +6,12 @@ Appointments Demo is a CRUD API demo developed using Spring Boot Framework.
 Basic Error Checking and Validations are present for scheduling of appointments.
 Authentication has not been implemented due to shortage of time.
 Unit Test Cases have not been requested .
-
+Note - Duration of appointment requested in the assignment can be achieved by calculating the difference between starttime and endtime from the database record. There is no endpoint for the same.
 HOW TO INSTALL / EXECUTE
 ________________________
 Note - Please ensure you have Java 8 JRE / SKD ($java -version) and maven installed.
 Clone the Source Url and "cd" to appointmentdemo folder
-Based on dependencies added in pom.xml please execute a 
+Based on dependencies added in pom.xml (jpa , h2, spring web) please execute a 
 $maven update from the terminal
 $mvn spring-boot:run (or open the source in Spring / Eclipse and run the maven command from the menu
 
@@ -19,7 +19,7 @@ The message appears in the terminal which should tell you the port number and we
 2022-08-04 16:31:56.679  INFO 7566 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2022-08-04 16:31:56.690  INFO 7566 --- [           main] c.e.a.AppointmentsApplication            : Started AppointmentsApplication in 4.114 seconds (JVM running for 4.619)
 
-
+Once booted, based on entries in application.properties file in src/main/resources the h2 console will be found at http://localhost:<port>/h2-console
 Go to your favourite browser / rest client / postman .
 
 Following api methods have been implemented as requested in the S30 Java Assignment
