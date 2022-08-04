@@ -31,7 +31,7 @@ Following api methods have been implemented as requested in the S30 Java Assignm
 5.Delete Appointment
 --------------------------------------------------------------------
 1. Create Appointment
-URL to test -> http://localhost:<port>/create
+URL to test -> http://localhost:8080/create
 Http Header FOR ALL api endpoints - Content-Type: application/json
 Request Body format
 {    
