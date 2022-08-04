@@ -29,7 +29,7 @@ Following api methods have been implemented as requested in the S30 Java Assignm
 3.List Appointment by Date Range
 4.Update Appointment
 5.Delete Appointment
-
+--------------------------------------------------------------------
 1. Create Appointment
 URL to test -> http://localhost:<port>/create
 Http Header FOR ALL api endpoints - Content-Type: application/json
